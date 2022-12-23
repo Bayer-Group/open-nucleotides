@@ -1,0 +1,52 @@
+name: nucleotides
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - bioconda
+dependencies:
+  - python
+  - pip
+  - requests
+  - cython
+  - docopt
+  - h5py
+  - pandas
+  - pyyaml
+  - scikit-learn
+  - scipy
+  - statsmodels
+  - pytabix
+  - matplotlib
+  - altair
+  - numpy
+  - plotly
+  - pytorch
+  - torchvision
+  - pyfaidx
+  - seaborn
+  - cudatoolkit
+  - selene-sdk
+  - samtools
+  - tabix
+  - pybedtools
+  - optuna
+  - pytables
+  - uvicorn
+  - transformers
+  - umap-learn
+  - captum
+  - universal_pathlib
+  - pip:
+      - -e .
+      - setuptools_scm
+      - s3fs
+      - boto3
+      - pytorch-lightning
+      - torchmetrics
+      - fastapi
+      - pytest
+      - streamlit
+      - python-dotenv
+      - typer[all]
+      - gpustat

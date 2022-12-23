@@ -1,0 +1,11 @@
+# python
+__pycache__
+
+# folders
+.scripts
+.github
+
+# files
+.gitignore
+Dockerfile
+README.md
